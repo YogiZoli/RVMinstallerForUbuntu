@@ -28,7 +28,7 @@ rvm gemset create rails;
 rvm gemset use rails --default;
 
 # install Rails newest version
-gem install rails;
+gem install rails --no-ri --no-rdoc;
 
 # Check Rails version and Gems list
 gem list;
